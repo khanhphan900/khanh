@@ -147,6 +147,7 @@ section .card .card_footer .date {
 }
 
 .button button {
+  width: 150px;
   margin: 20px 0px 0px;
   padding: 10px;
   background: white;
@@ -236,7 +237,7 @@ footer .footer .left {
   align-items: center;
 }
 
-footer .footer .left span{
+footer .footer .left span {
   font-size: 25px;
 }
 
