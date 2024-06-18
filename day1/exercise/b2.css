@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+  padding-right: 15px;
+  line-height: 54px;
+}
+
+body {
+  margin: 20px 0px;
+}
+
+main {
+  margin: 0px 60px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 5px;
+}
+
+header .logo {
+  font-size: 30px;
+  line-height: 54px;
+}
+
+header .logo .logo_img {
+  width: 25px;
+  height: 25px;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu .list {
+  display: flex;
+}
+
+header .menu .search {
+  line-height: 54px;
+}
+
+nav {
+  height: 400px;
+  margin-top: 20px;
+}
+
+nav img {
+  border-radius: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgb(211, 216, 216);
+  text-align: center;
+  color: rgb(61, 61, 61);
+  border-radius: 7px;
+  margin: 50px auto;
+}
+
+.container span {
+  font-size: 11px;
+}
+
+h4 {
+  margin: 10px 0 30px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+section .card {
+  height: 320px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+section .card img {
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+section .card a {
+  background: rgb(238, 235, 235);
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+section .card .title {
+  margin: 10px 0px;
+}
+
+section .card .card_footer {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .card .card_footer img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+}
+
+section .card .card_footer .author {
+  display: flex;
+  align-items: center;
+  color: #b8b6b6;
+  font-size: 12px;
+}
+
+section .card .card_footer .author span {
+  padding-left: 5px;
+}
+
+section .card .card_footer .date {
+  line-height: 30px;
+  color: #b8b6b6;
+  font-size: 12px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  margin: 20px 0px 0px;
+  padding: 10px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: #555454;
+}
+
+.logo_img {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  background: rgb(223, 217, 217);
+  padding: 20px 60px 15px;
+}
+
+footer .f_container {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+
+footer .f_container .left {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+footer .f_container .left .box1 {
+  grid-column: 1/3;
+}
+
+footer .f_container .left h4 {
+  margin-bottom: 15px;
+}
+
+footer .f_container .left p {
+  margin-bottom: 15px;
+}
+
+footer .f_container .left li {
+  height: 30px;
+  line-height: 30px;
+}
+
+footer .f_container .right {
+  background: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+footer .f_container .right h4 {
+  margin-bottom: 5px;
+}
+
+footer .f_container .right p {
+  margin: 0px 0px 20px;
+}
+
+footer .f_container .right input,
+button {
+  width: 100%;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+footer .f_container .right button {
+  background: rgb(127, 127, 245);
+  color: white;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+footer .footer .left {
+  height: 54px;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer .left span{
+  font-size: 25px;
+}
+
+footer .footer .left img {
+  width: 54px;
+  height: 54px;
+}
+
+footer .footer .right {
+  display: flex;
+}
+
+footer .footer .right li {
+  padding: 0px 0px 0px 25px;
+}
