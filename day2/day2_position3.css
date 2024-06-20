@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+  .card {
+    position: relative;
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(0px, 0px);
+      color: white;
+      font-size: 50px;
+      opacity: 0.5;
+      animation: khanh 5s infinite;
+    }
+  }
+}
+
+@keyframes khanh {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  25% {
+    transform: translate(0px, 50px) scale(1.5);
+  }
+  50% {
+    transform: translate(50px, 50px) skewX(50deg);
+  }
+  75% {
+    transform: translate(50px, -50px) rotate(45deg);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
