@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="i-price">100</td>
+      <td class="i-price">200</td>
+      <td class="i-price">300</td>
+      <td class="i-price">400</td>
+      <td class="i-price">500</td>
+    </tr>
+  </table>
+  <script>
+    let prices = document.getElementsByClassName("i-price");
+    console.log(prices);
+
+    Array.from(prices).forEach(function (price) {
+      console.log(price.textContent);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.list-a {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-a li {
+    position: relative;
+    margin: 10px 0;
+}
+
+.list-a li:hover > .list-b {
+    display: block;
+}
+
+.list-b {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-b li {
+    margin: 5px 0;
+    position: relative;
+}
+
+.list-c {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    border: 1px solid #ccc;
+    background-color: #e9e9e9;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-b li:hover > .list-c {
+    display: block;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  background: rgb(201, 194, 194);
+}
+table,
+th,
+td {
+  border: 1px solid #3a07c5;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
