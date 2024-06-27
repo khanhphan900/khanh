@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./day4_layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="left">
+          <i class="fa-solid fa-location-dot"></i>
+          <a href="#">123 Street, New York</a>
+          <i class="fa-regular fa-envelope"></i>
+          <a href="">Email@Example.com</a>
+        </div>
+        <div class="right">
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Sales and Refunds</a>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="title">Fruitables</div>
+        <div class="container">
+          <i class="fa-solid fa-bars"></i>
+          <div class="nav">
+            <div class="main-nav">
+              <div class="left">
+                <ul class="lists">
+                  <li class="list">Home</li>
+                  <li class="list">Shop</li>
+                  <li class="list">Shop Detail</li>
+                  <li class="list">
+                    Pages <i class="fa-solid fa-angle-down"></i>
+                    <ul class="lists-child">
+                      <li class="list-child">Cart</li>
+                      <li class="list-child">Chackout</li>
+                      <li class="list-child">Testimonial</li>
+                      <li class="list-child">404 Page</li>
+                    </ul>
+                  </li>
+                  <li class="list">Contact</li>
+                </ul>
+              </div>
+              <div class="right">
+                <div class="search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="cart">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <div class="cart-num">3</div>
+                </div>
+                <i class="fa-solid fa-user"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="nav-bg"></div>
+      <div class="nav-main">
+        <div class="nav-left">
+          <div class="text-small">100% Organic Foods</div>
+          <div class="text-large">Organic Veggies & Fruits Foods</div>
+          <div class="nav-search">
+            <input class="input-search" type="text" placeholder="Search" />
+            <button class="btn-search">Submit Now</button>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="carousels">
+            <div class="crs-img crs-img-1">
+              <img
+                src="https://themewagon.github.io/fruitables/img/hero-img-1.png"
+                alt=""
+              />
+              <div class="crs-text">Fruits</div>
+              <div class="crs-btn">
+                <i class="fa-solid fa-angle-left"></i
+                ><i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="crs-img crs-img-2">
+              <img
+                src="https://themewagon.github.io/fruitables/img/hero-img-2.jpg"
+                alt=""
+              />
+              <div class="crs-text">Vegetables</div>
+              <div class="crs-btn">
+                <i class="fa-solid fa-angle-left"></i
+                ><i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container-cards-icon">
+        <div class="cards-grid">
+          <div class="card-icon">
+            <div class="card-icon-bg">
+              <i class="fa-solid fa-car-side"></i>
+            </div>
+            <div class="card-icon-title">Free Shipping</div>
+            <div class="card-icon-text">Free on order over $300</div>
+          </div>
+          <div class="card-icon">
+            <div class="card-icon-bg">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <div class="card-icon-title">Security Payment</div>
+            <div class="card-icon-text">100% security payment</div>
+          </div>
+          <div class="card-icon">
+            <div class="card-icon-bg">
+              <i class="fa-solid fa-right-left"></i>
+            </div>
+            <div class="card-icon-title">30 Day Return</div>
+            <div class="card-icon-text">30 day money guarantee</div>
+          </div>
+          <div class="card-icon">
+            <div class="card-icon-bg">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="card-icon-title">24/7 Support</div>
+            <div class="card-icon-text">Support every time fast</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-products">
+        <div class="products-options">
+          <div class="option-title">Our Organic Products</div>
+          <div class="options-btn">
+            <button class="option-btn active">All Products</button>
+            <button class="option-btn">Vegetables</button>
+            <button class="option-btn">Fruits</button>
+            <button class="option-btn">Bread</button>
+            <button class="option-btn">Meat</button>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-card-name left">Vegetables</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name left">Fruits</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name left">Fruits</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name left">Meat</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name left">Meat</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name left">Meat</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/fruite-item-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-products-outstanding">
+        <div class="card-product-osd">
+          <div class="osd-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/featur-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="osd-bg-bottom">
+            <div class="osd-box">
+              <div class="osd-name">Fresh Apples</div>
+              <div class="osd-sale">20% OFF</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-product-osd">
+          <div class="osd-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/featur-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="osd-bg-bottom">
+            <div class="osd-box">
+              <div class="osd-name">Tasty Fruits</div>
+              <div class="osd-sale">Free delivery</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-product-osd">
+          <div class="osd-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/featur-3.jpg"
+              alt=""
+            />
+          </div>
+          <div class="osd-bg-bottom">
+            <div class="osd-box">
+              <div class="osd-name">Exotic Vegetable</div>
+              <div class="osd-sale">Discount 30$</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-products">
+        <div class="products-options">
+          <div class="option-title">Our Organic Products</div>
+          <div class="options-btn">
+            <button class="option-btn active">All Products</button>
+            <button class="option-btn">Vegetables</button>
+            <button class="option-btn">Fruits</button>
+            <button class="option-btn">Bread</button>
+            <button class="option-btn">Meat</button>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-card-name right">Vegetables</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/vegetable-item-6.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content start">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name right">Fruits</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/vegetable-item-6.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content start">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name right">Fruits</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/vegetable-item-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-content start">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-name right">Meat</div>
+            <div class="product-card-img">
+              <img
+                src="https://themewagon.github.io/fruitables/img/vegetable-item-3.png"
+                alt=""
+              />
+            </div>
+            <div class="product-content start">
+              <div class="product-title">Grapes</div>
+              <div class="product-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deleniti ipsum eaque
+              </div>
+              <div class="product-price">
+                <div class="product-price-text">$4.99 / kg</div>
+                <button class="product-btn">
+                  <i class="fa-solid fa-bag-shopping"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="nav-container">
+      <div class="left">
+        <div class="nav-title">Fresh Exotic Fruits</div>
+        <div class="nav-sub-title">in Our Store</div>
+        <div class="nav-text">
+          The generated Lorem Ipsum is therefore always free from repetition
+          injected humour, or non-characteristic words etc.
+        </div>
+        <div class="nav-btn"><button>Buy</button></div>
+      </div>
+      <div class="right">
+        <div class="nav-price">
+          <div class="nav-price-weight">1</div>
+          <div class="nav-content">
+            <div class="nav-price-num">50$</div>
+            <div class="nav-price-until">kg</div>
+          </div>
+        </div>
+        <div class="img">
+          <img
+            src="https://themewagon.github.io/fruitables/img/baner-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+    <div class="rate-products">
+      <div class="rate-products-text">
+        <h1>Bestseller Products</h1>
+        <p>
+          Latin words, combined with a handful of model sentence structures, to
+          generate Lorem Ipsum which looks reasonable.
+        </p>
+      </div>
+      <div class="rate-products-cards">
+        <div class="rate-products-card card-1">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-2">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-3">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-3.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-4">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-4.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-5">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-5.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-6">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/best-product-6.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-7 col">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/fruite-item-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-8 col">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/fruite-item-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-9 col">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/fruite-item-3.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="rate-products-card card-10 col">
+          <div class="card-img">
+            <img
+              src="https://themewagon.github.io/fruitables/img/fruite-item-4.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <div class="card-content-name">Organic Tomato</div>
+            <div class="card-content-rate">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-content-price">3.12 $</div>
+            <button class="card-content-btn">
+              <i class="fa-solid fa-bag-shopping"></i> Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-info">
+        <div class="product-info">
+          <div class="card-info">
+            <i class="fa-solid fa-users"></i>
+            <p>SATISFIED CUSTOMERS</p>
+            <div class="info">1963</div>
+          </div>
+          <div class="card-info">
+            <i class="fa-solid fa-users"></i>
+            <p>QUALITY OF SERVICE</p>
+            <div class="info">99%</div>
+          </div>
+          <div class="card-info">
+            <i class="fa-solid fa-users"></i>
+            <p>QUALITY CERTIFICATES</p>
+            <div class="info">33</div>
+          </div>
+          <div class="card-info">
+            <i class="fa-solid fa-users"></i>
+            <p>AVAILABLE PRODUCTS</p>
+            <div class="info">789</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-client">
+        <div class="client-title">
+          <div class="client-title-1">Our Testimonial</div>
+          <div class="client-title-2">Our Client Saying!</div>
+        </div>
+        <div class="client-carousel">
+          <div class="client-btns">
+            <i class="fa-solid fa-arrow-right"></i>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="client-cards">
+            <div class="client-card">
+              <p class="text">
+                Lorem Ipsum is simply dummy text of the printing Ipsum has been
+                the industry's standard dummy text ever since the 1500s,
+              </p>
+              <div class="client">
+                <img
+                  src="https://themewagon.github.io/fruitables/img/testimonial-1.jpg"
+                  alt=""
+                />
+                <div class="client-content">
+                  <div class="client-name">Client Name</div>
+                  <div class="client-job">Profession</div>
+                  <div class="client-rate">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+            </div>
+            <div class="client-card">
+              <p class="text">
+                Lorem Ipsum is simply dummy text of the printing Ipsum has been
+                the industry's standard dummy text ever since the 1500s,
+              </p>
+              <div class="client">
+                <img
+                  src="https://themewagon.github.io/fruitables/img/testimonial-1.jpg"
+                  alt=""
+                />
+                <div class="client-content">
+                  <div class="client-name">Client Name</div>
+                  <div class="client-job">Profession</div>
+                  <div class="client-rate">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <div class="left">
+          <div class="title">Fruitables</div>
+          <div class="sub-title">Fresh products</div>
+        </div>
+        <div class="center">
+          <input type="text" placeholder="Your Email" />
+          <input type="submit" value="Subscribe Now" />
+        </div>
+        <div class="links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i
+          ><i class="fa-brands fa-youtube"></i
+          ><i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="footer-center">
+        <div class="box">
+          <div class="box-title">Why People Like us!</div>
+          <p class="box-text">
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the like Aldus PageMaker including of Lorem Ipsum.
+          </p>
+          <button class="box-btn">Read More</button>
+        </div>
+        <div class="box">
+          <div class="box-title">Shop Info</div>
+          <ul class="box-lists">
+            <li class="hover">About us</li>
+            <li class="hover">Contact us</li>
+            <li class="hover">Privacy Policy</li>
+            <li class="hover">Terms & Condition</li>
+            <li class="hover">Return Policy</li>
+            <li class="hover">FAQ & Help</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="box-title">Account</div>
+          <ul class="box-lists">
+            <li>About us</li>
+            <li class="hover">Contact us</li>
+            <li class="hover">Shopping Cart</li>
+            <li class="hover">Wishlist</li>
+            <li class="hover">Order History</li>
+            <li class="hover">International Orders</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="box-title">Contact</div>
+
+          <ul class="box-lists">
+            <li>Address: 1429 Netus Rd, NY 48247</li>
+            <li>Email: Example@gmail.com</li>
+            <li>Phone: +0123 4567 8910</li>
+            <li>Payment Accepted</li>
+            <li>
+              <img
+                src="https://themewagon.github.io/fruitables/img/payment.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./day4_layout.js"></script>
+</html>
