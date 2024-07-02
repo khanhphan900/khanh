@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+p,
+b {
+  margin: 0;
+}
+.background {
+  height: calc(100vh * 0.8);
+  background-image: url("https://cdn.pixabay.com/photo/2023/08/18/10/00/sea-8198149_640.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+}
+
+.nav-img {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: blue;
+  border-radius: 50%;
+}
+
+.nav-title {
+  letter-spacing: 2px;
+}
+
+.collapse ul li {
+  color: wheat;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 1px solid white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+iframe {
+  aspect-ratio: 1.5 /1;
+  height: 50vh;
+}
+.col-card {
+  height: 45vh;
+}
+
+.title-img {
+  &::before {
+    content: "";
+    width: 250%;
+    height: 200%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3aacf4;
+    z-index: -1;
+    transform: rotate(45deg) translate(-70%);
+  }
+}
+
+.card-person {
+  width: 100px;
+  height: 100px;
+}
+
+.font-size-icon {
+  font-size: 0.7rem;
+  bottom: 0px;
+  right: 0;
+}
+
+.set-height {
+  height: 300px;
+}
+
+.crs-height {
+  height: 300px;
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+.setting-bg-footer {
+  background: #091445;
+}
